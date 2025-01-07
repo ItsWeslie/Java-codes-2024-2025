@@ -46,10 +46,10 @@ public class GenericDemo
         // g.printArray(arr);
         // g.printArray(str);
 
-        Test<Integer> t1 = new Test<>();
+        test<Integer> t1 = new test<>();
         t1.value=789;
        System.out.println( t1.show(20));
-        Test<String> t2 = new Test<>();
+        test<String> t2 = new test<>();
         t2.value="welcome";
        System.out.println( t2.show("hello"));
     }
